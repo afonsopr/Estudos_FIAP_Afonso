@@ -1,0 +1,142 @@
+A BuiltCode está no mercado há 12 anos atuando em projetos nacionais e internacionais. Parceira oficial da SAP e Thomson Reuters, desenvolve soluções para diferentes mercados, destacando-se em projetos na área da saúde. É uma empresa constituída por profissionais especializados que visam à prática de seus conhecimentos com o objetivo de atender seus clientes com excelência e responsabilidade. 
+
+Suas verticais de negócios estão divididas em:
+
+Softwares como serviços (SAAS): para as áreas de Recursos Humanos;  Financeira e Controladoria; e Jurídica.
+
+Projetos Cognitivos: área de desenvolvimento de projetos voltados para tecnologias e plataformas cognitivas com aplicação intensa de Inteligência Artificial e BigData.
+
+Fábrica de Software: possui uma sistemática de trabalho que se adapta às diferentes realidades de clientes e projetos. Adota uma abordagem ágil, garantindo a interação com o cliente em diferentes momentos do processo de desenvolvimento. Todo e qualquer projeto é conduzido por um gerente de projeto e a principal preocupação é desenvolver aplicações arquitetadas, garantindo sua evolução e manutenção.
+
+Contextualização:
+
+Pesquisas comprovam que muitos dos projetos de desenvolvimento de software falham no escopo, no prazo, no preço ou até mesmo na aplicabilidade do foram desenvolvidos e entregues ao cliente. Para auxiliar neste processo, surgiram algumas metodologias, métodos e ferramentas, destacando-se como geração de valor ao cliente a entrega contínua de soluções de software.
+
+          A entrega contínua, apoiada pela cultura ágil na empresa, permite  mudar a rota de um projeto antes que sejam desperdiçados tempo, recursos e dinheiro. A interação constante com o cliente, times organizados por squads, reunião diárias, revisões periódicas do trabalho, priorização do escopo e autonomia para a equipe são ações que contribuem muito para realizar entregas aderentes aos requisitos estabelecidos com o cliente (interno ou externo).
+
+          Porém, um requisito mal-entendido ou não documentado, certamente, irá gerar ruídos tanto para a equipe de desenvolvimento quanto para o cliente, causando frustrações e prejuízos para ambos.
+
+          O levantamento e a formalização dos requisitos de um projeto de software podem ser considerados tarefas determinantes para o sucesso do projeto.
+
+          Neste contexto, a tarefa apresentada abaixo leva em conta diversas experiências em diferentes projetos da equipe de desenvolvimento de software da Builtcode. Os nomes utilizados são fictícios, mas os fatos relatados descrevem situações práticas que desafiam os profissionais de desenvolvimento de sistemas, independentemente de métodos ou ferramentas que adotam no seu dia a dia.
+
+CENÁRIO PARA O ESTUDO
+
+          O Product Owner (PO) de uma fábrica de software que está especificando um sistema para encaminhar à equipe de desenvolvedores. O objetivo é garantir que o software a ser criado esteja totalmente aderente às necessidades da Maxximus (nome fictício).
+
+          A Maxximus é uma empresa que conecta o cliente final a uma cadeia de fornecedores do varejo via e-commerce e deseja ser referência no mundo dos Super Apps, ou seja, o que o cliente final pensar em comprar, eles querem ser lembrados e procurados.
+
+          Leve em consideração as seguintes premissas:
+
+          - Somente o PO do projeto teve contato com o cliente;
+
+          - O cliente não possui muita disponibilidade de tempo para tirar dúvidas durante o projeto;
+
+          - Mesmo trabalhando com metodologias ágeis, o cliente exige ver um planejamento de tudo que será desenvolvido ao longo de cinco meses;
+
+          - O sponsor do projeto do lado do cliente é o principal executivo;
+
+          - Existe budget suficiente para o projeto, porém o go live do sistema já está programado para 5 meses após o PO ter acesso a este documento;
+
+          - Seu papel, neste momento, como parte do time de desenvolvimento, é garantir que os itens identificados para a sprint atendam às necessidades do cliente.
+
+ 
+
+NECESSIDADES LEVANTADAS PELO CLIENTE
+
+          Suponha que o PO já tenha realizado algumas reuniões com o cliente e possua as anotações abaixo:
+
+          - O cliente deseja criar um Super App ();
+
+          - O PO já teve a rara oportunidade em falar com o CEO da Maxximus, que foi taxativo: “Quero um Super App.”
+
+           - Ao questionar o CEO sobre as funcionalidades do software que ele estava contratando, ele respondeu: “Você não sabe o que é um Super App? É simples, uso alguns e quero fazer um igual para a minha empresa.”
+
+          Um pouco encabulado, fingiu que entendeu e passou a falar com outras áreas da empresa e obteve os seguintes resultados:
+
+ 
+
+Área de TI do cliente:
+
+- O ERP possui uma API que lista todos os produtos e a tabela de preços;
+
+- O e-commerce é feito em Magento e também possui API para consultar os produtos;
+
+- Não sabe nada sobre a Lei Geral de Proteção de Dados Pessoais (LGPD).
+
+Área de Marketing:
+
+- Irá desenvolver um protótipo conceitual;
+
+- Entregará a você toda a identidade visual;
+
+- Já desenhou a Jornada do Cliente que privilegia a usabilidade;
+
+- Você tentou agendar uma semana de trabalho para aplicar o método Design Sprint, mas o diretor de marketing foi taxativo: “Já fizemos esse levantamento usando outras técnicas e estamos meio sem tempo para repetir o processo.”
+
+- O público-alvo são jovens entre 18 e 29 anos;
+
+- Entre as muitas telas apresentadas pela equipe de UX, como Cadastro de usuários, edição do perfil, lista de categorias de produtos, lista de produtos, pedido, check-out, cadastro de informações de pagamentos, repetir pedido, buscar produtos, login com redes sociais etc..., a tela abaixo conseguiu tangibilizar um pouco melhor a ideia.
+
+
+
+Área Jurídica:
+
+- Conhece muito de LGPD e está fazendo um excelente trabalho na empresa;
+
+- Exige que o sistema esteja 100% aderente à LGPD.
+
+  
+
+Área Financeira:
+
+- A empresa já possui uma negociação com os meios de pagamento Mercado Pago e Cielo e o sistema a ser desenvolvido precisa estar integrado com os dois;
+
+- Uma fala do CFO que chamou sua atenção: “Essa integração é simples. Outros fornecedores já fizeram. Porém, o problema é que o Mercado Pago tem recusado muitos pagamentos de clientes. Portanto, quando isso acontecer, o sistema deve tentar fazer a requisição e a aprovação de pagamento pela Cielo. É fácil, vocês são bons e não terão problemas, certo?!”
+
+TAREFA
+
+De acordo com as necessidades, foram identificadas as seguintes histórias de usuário pelo PO:
+
+Área de TI do cliente:
+
+COMO Área de TI do cliente, QUERO que o App conecte na minha API do ERP PARA exibir a lista com todos os produtos e a tabela de preços.
+
+COMO Área de TI do cliente, QUERO que o App conecte na API do e-commerce PARA estar totalmente sincronizado com o site.
+
+Área de Marketing:
+
+COMO Área de Marketing, PRECISO que o App seja baseado no protótipo conceitual PARA garantir a nossa identidade visual.
+
+COMO Área de Marketing, GOSTARIA que as telas fossem desenvolvidas seguindo a Jornada do Cliente PARA privilegiar a usabilidade.
+
+Área Jurídica:
+
+COMO Área Jurídica, PRECISO que o sistema esteja 100% aderente  PARA atender às normas da Lei Geral de Proteção de Dados Pessoais (LGPD).
+
+Área Financeira
+
+COMO Área Financeira, QUERO que o sistema esteja integrado com os meios de pagamento Mercado Pago e Cielo PARA atender à negociação realizada com os dois.
+
+SENDO CFO, PRECISO que o pagamento pela Cielo esteja sempre disponível PORQUE, eventualmente, o Mercado Pago tem recusado muitos pagamentos de clientes.
+
+Com base nas histórias de usuários, sua tarefa junto da equipe de desenvolvedores será elaborar o Sprint Backlog da primeira Sprint do produto contendo – pelo menos – 10 PBIs (Product Backlog item) e fazer as estimativas em horas de quanto de esforço cada PBI vai demandar (cálculo da velocidade).
+
+Foi estipulado que o time trabalha em Sprints de 15 dias.
+
+Os PBIs podem abranger tanto Front-end como Back-end.
+
+Cada área deve conter, no mínimo, 1 PBI que atenda a uma de suas necessidades.
+
+Ordene os PBIs, com o seu entendimento de priorização, dentro do prazo programado para o go live. Você pode entregar um documento de texto ou uma apresentação em slides, criada no aplicativo de sua preferência.
+
+
+DICAS:
+
+Durante a Fase 1, no Capítulo 5, você já teve a chance de entender mais sobre como funciona o cálculo da velocidade.
+Os PBIs devem focar em atender QUERO | DEVO | PRECISO | GOSTARIA de <ação, necessidade ou desejada na história>.
+Cada história de usuário DEVE conter um ou mais PBIs.
+Para construir o Sprint Backlog, utilize como base o Capítulo 7 da Fase 1.
+Deve ser construído o Sprint Backlog apenas da PRIMEIRA Sprint (15 dias).
+Atividades entregues até 3 dias após o prazo receberão até 70% da nota.
+O cálculo é feito automaticamente pelo sistema, o professor não tem controle sobre o percentual da nota atribuída.

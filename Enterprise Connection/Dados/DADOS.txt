@@ -1,0 +1,20 @@
+Sobre a Idwall        
+
+                              
+
+Fundada em 2016 por Lincoln Ando e Raphael Melo, a  idwall  é  uma  regtech especializada em desenvolver soluções automatizadas de validação de identidade, facilitando o onboarding de usuários em organizações de diversos segmentos e auxiliando para que fiquem em conformidade com as legislações específicas de seus mercados.
+
+A regtech foi criada com a missão de solucionar um grande desafio enfrentado pelas empresas brasileiras, vivenciado por Lincoln e Raphael em suas diversas experiências profissionais: a grande desconfiança existente no ambiente digital, causada por crimes como a fraude de identidade.  No Brasil, essa infração é responsável pelo prejuízo de R$60 bilhões anualmente, colocando-o atrás apenas do México entre os países que mais sofrem com essa ocorrência.
+
+Desafio
+
+O desafio será a criação de um ranking de criticidade de violações/vazamentos “breaches” de dados pessoais em serviços de internet, por meio dos critérios de dados comprometidos como senha, ajuda da senha, número do telefone, nomes, e-mail e data do vazamento.
+
+            Veja abaixo, o exemplo de empresas e os dados comprometidos em vazamentos reportados pelo site https://haveibeenpwned.com.
+
+
+
+
+ Analisando o resultado do site que apresenta 5 vazamentos, o primeiro a ser exibido ou primeiro do ranking seria Canva, seguido por Hurb, pois entre os vazamentos os dois sites tiveram senha vazadas e foram mais recentes. O terceiro site seria a Adobe, mesmo o vazamento sendo de 2013, os dados comprometidos contêm senha e dica de senha; em quarto seria o site Apolo e por último o serviço PDL.
+
+Para resolver o desafio UTILIZE APENAS O CONTEÚDO ESTUDADO DURANTE A FASE.
